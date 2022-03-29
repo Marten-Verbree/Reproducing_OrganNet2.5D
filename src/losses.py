@@ -1,8 +1,6 @@
 import torch
 import numpy as np
-import torch.nn as nn
-import matplotlib.pyplot as plt
-from torchsummary import summary
+
 
 def dice_coef(y_true, y_pred, epsilon=1e-6):
     """ Computes the Sørensen-dice score coefficien(DSC).
